@@ -1,0 +1,17 @@
+.header_button {
+    padding: 10px;
+    background-color: white;
+    border-radius: 25px;
+    min-width: 150px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  
+  .header_button:hover {
+    background: var(--primary-gradient);
+  }
+  
+  .header_button div:nth-child(1) {
+    margin-right: 5px;
+    transform: rotate(-45deg);
+  }

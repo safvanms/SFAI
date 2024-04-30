@@ -1,0 +1,26 @@
+.badge {
+  background-color: #000014;
+  padding: 25px 0;
+}
+
+.badge_images {
+  gap: 50px;
+}
+
+.badge_images img {
+  height: 40px;
+  width: auto;
+  filter: brightness(0.7);
+}
+
+@media (max-width: 900px) {
+  .badge_images {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+    .badge_images img {
+        height: 25px;
+      }
+}

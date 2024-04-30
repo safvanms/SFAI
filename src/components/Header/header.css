@@ -1,0 +1,61 @@
+.header {
+  padding: 20px;
+  z-index: 1000;
+}
+
+.lg_header {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo_section img {
+  width: 90px;
+  filter: brightness(0) invert(1);
+}
+
+.header_content {
+  color: white;
+  gap: 30px;
+  font-size: 13px;
+}
+
+.header_content > * {
+  cursor: pointer;
+}
+
+.header_content > :hover {
+  color: var(--primary-color);
+}
+
+.sm_header_option {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .sm_header_option {
+    justify-content: space-between !important;
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+  }
+
+  .header_content {
+    display: none;
+  }
+
+  .lg_header {
+    display: none;
+  }
+
+  .mobile_menu_content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffff;
+    width: 100%;
+    padding: 10px 25px;
+    height: 80vh;
+  }
+}

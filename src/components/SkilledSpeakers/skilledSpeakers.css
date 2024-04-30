@@ -1,0 +1,47 @@
+.skilled_speakers {
+  display: flex;
+  position: relative;
+  gap: 50px;
+}
+
+.speaker {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  overflow: hidden;
+}
+
+.speaker img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  transform: scale(1.2);
+}
+
+.speaker:nth-child(1) {
+  transform: scaleX(-1);
+}
+
+.speaker:nth-child(2) {
+  position: absolute;
+  left: 40px;
+}
+
+.speaker:nth-child(3) {
+  position: absolute;
+  left: 80px;
+}
+
+.skilled_speaker_button{
+    position: absolute;
+    left: 160px;
+    white-space: nowrap;
+}
+
+.skilled_speaker_button .icon{
+    color: var(--primary-color);
+    transform: rotate(-50deg);
+    margin-left: 10px;
+}

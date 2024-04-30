@@ -1,0 +1,47 @@
+.time_section_blocks {
+  gap: 10px;
+}
+
+.time_block {
+  flex-direction: column;
+  gap: 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.colon {
+  font-size: 55px;
+  color: #fff;
+}
+
+.time_block span:nth-child(1) {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.time_block span:nth-child(2) {
+  font-size: 11px;
+  text-transform: uppercase;
+  filter: brightness(0.5);
+}
+
+@media (max-width: 500px) {
+  .time_block {
+     width: 60px;
+    height: 60px;
+  }
+  .colon {
+    font-size: 35px;
+  }
+  
+  .time_block span:nth-child(1) {
+    font-size: 30px;
+  }
+  
+  .time_block span:nth-child(2) {
+    font-size: 8px;
+    
+  }
+}

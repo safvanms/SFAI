@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #cb00ff;
+  --secondary-color: #5603b4;
+  --primary-gradient: linear-gradient(to right, #cb00ff, #5603b4);
+  --secondary-gradient: linear-gradient(to bottom, #cb00ff, #110122);
+  --ternary-gradient: linear-gradient(to bottom, #cb00ff, #5603b4);
+
+}
+
+.Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
